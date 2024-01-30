@@ -221,6 +221,18 @@ a:focus {
   background-size: 55px;
 }
 
+.drop {
+  position: absolute;
+  background: rgb(10, 10, 10);
+  border-radius: 10px;
+  width: 15%;
+  height: 150%;
+  text-align: center;
+  font-size: 1.1em;
+  visibility: hidden;
+  transition: 0.2s;
+}
+
 /*end header section*/
 .slider_section {
   -webkit-box-flex: 1;
