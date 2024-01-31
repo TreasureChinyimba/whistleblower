@@ -1,8 +1,9 @@
-const whyFraud = document.getElementById('fraud')
 const dropDown = document.querySelector('.drop');
+const fraud = document.getElementById('fraud')
 
-whyFraud.addEventListener('mouseover', ()=>{
-    alert('works')
+
+
+fraud.addEventListener('mouseover', ()=>{
+    dropDown.style= 'visibility: visible;';
+    
 })
-
-console.log(whyFraud);
